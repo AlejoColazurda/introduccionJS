@@ -17,7 +17,7 @@ var producto1 = 'computadora',
 //Estilos para declarar las variables.
 var nombre_producto = 'monitor HD'; //underscore.
 var nombreProducto = 'monitor HD'; //Camelcase.
-var nombreProducto = 'monitor HD'; //Pascal Case.
+var NombreProducto = 'monitor HD'; //Pascal Case.
 var nombreproducto = 'monitor HD'; //lower case cero uso en js.
 
 console.log(producto);
