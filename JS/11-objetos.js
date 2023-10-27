@@ -22,4 +22,7 @@ producto.imagen = 'imagen.jpg';
 delete producto.disponibles;
 
 
+
+
+
 console.log(producto);
