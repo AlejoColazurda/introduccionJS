@@ -7,3 +7,4 @@ console.log(boolean2);
 
 const boolean3 = new Boolean(true);
 console.log(boolean3);
+
