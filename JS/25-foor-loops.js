@@ -6,7 +6,7 @@
 //         console.log(`El Número ${i} es impar`);
 // }
 // }
-
+console.log('-----------------------SECCION FOR LOOP-----------------------');
 const carrito = [
     {nombre: 'Monitor 20"', precio: 500},
     {nombre: 'Television 80"', precio: 1000},
@@ -25,6 +25,7 @@ for(let i = 0; i < carrito.length; i++){
 
 
 //While Loop
+console.log('-----------------------SECCION WHILE LOOP-----------------------');
 let i = 0;//indice
 while(i < 10){//condicion
     if(i % 2 === 0){
@@ -45,7 +46,11 @@ while(j < carrito.length){
 
 
 //Do while Loop
+console.log('-----------------------SECCION DO WHILE LOOP-----------------------');
+let k = 0;//indice
 
-
-
+do{
+    console.log(k);
+    k++;
+}while(k < 10);//condicion
 
