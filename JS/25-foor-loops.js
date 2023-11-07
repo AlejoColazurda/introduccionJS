@@ -25,7 +25,21 @@ for(let i = 0; i < carrito.length; i++){
 
 
 //While Loop
+let i = 0;//indice
+while(i < 10){//condicion
+    if(i % 2 === 0){
+        console.log(`El Número ${i} es par`);
+    }else{
+        console.log(`El número ${i} es impar`);
+    }
+    i++;
+}
 
+let j = 0;
+while(j < carrito.length){
+    console.log(carrito[j].nombre)
+    j++;
+}
 
 
 
